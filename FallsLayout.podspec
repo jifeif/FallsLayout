@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "FallsLayout/TagLayout/**"
-  spec.exclude_files = "FallsLayout/TagLayout/FFSectionImageFlowLayout.{h, m}"
+  # spec.exclude_files = "FallsLayout/TagLayout/FFSectionImageFlowLayout.{h, m}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
