@@ -6,12 +6,12 @@
 //
 
 #import "FFSectionImageFlowLayout.h"
-#import "FFBackgroundImageView.h"
+//#import "FFBackgroundImageView.h"
 @implementation FFSectionImageFlowLayout
 
 - (void)prepareLayout {
     [super prepareLayout];
-    [self registerClass:[FFBackgroundImageView class] forDecorationViewOfKind:@"background"];
+//    [self registerClass:[FFBackgroundImageView class] forDecorationViewOfKind:@"background"];
 }
 
 - (UICollectionViewLayoutAttributes *)layoutAttributesForDecorationViewOfKind:(NSString *)elementKind atIndexPath:(NSIndexPath *)indexPath {
